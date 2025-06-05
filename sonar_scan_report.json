@@ -1,0 +1,54 @@
+{  
+  "version": "7.4",  
+  "users": [],  
+  "issues": [  
+    {  
+      "creationDate": "2023-10-13T17:00:00+0200",  
+      "isNew": true,  
+      "status": "OPEN",  
+      "rule": "squid:S2068",  
+      "severity": "CRITICAL",  
+      "key": "AWz9Ra8cOQXEjmgw8ZZ6",  
+      "component": "com.payrollapplication:src\\main\\java\\com\\payrollapplication\\payroll\\EmployeeModelAssembler.java",  
+      "line": 19,  
+      "startLine": 19,  
+      "startOffset": 0,  
+      "endLine": 19,  
+      "endOffset": 100,  
+      "message": "Avoid logging sensitive information such as passwords.",  
+      "type": "VULNERABILITY"  
+    },  
+    {  
+      "creationDate": "2023-10-13T17:05:00+0200",  
+      "isNew": true,  
+      "status": "OPEN",  
+      "rule": "squid:S2228",  
+      "severity": "MAJOR",  
+      "key": "AWz9Ra8cOQXEjmgw8ZZ7",  
+      "component": "com.payrollapplication:src\\main\\java\\com\\payrollapplication\\payroll\\EmployeeModelAssembler.java",  
+      "line": 24,  
+      "startLine": 24,  
+      "startOffset": 0,  
+      "endLine": 24,  
+      "endOffset": 100,  
+      "message": "Avoid exposing sensitive information through error messages.",  
+      "type": "VULNERABILITY"  
+    },    
+    {  
+      "creationDate": "2023-10-13T17:20:00+0200",  
+      "isNew": true,  
+      "status": "OPEN",  
+      "rule": "squid:S2228",  
+      "severity": "MAJOR",  
+      "key": "AWz9Ra8cOQXEjmgw8ZZA",  
+      "component": "com.payrollapplication:src\\main\\java\\com\\payrollapplication\\payroll\\EmployeeModelAssembler.java",  
+      "line": 51,  
+      "startLine": 51,  
+      "startOffset": 0,  
+      "endLine": 51,  
+      "endOffset": 100,  
+      "message": "Avoid exposing sensitive information through error messages.",  
+      "type": "VULNERABILITY"  
+    }  
+  ]  
+}  
